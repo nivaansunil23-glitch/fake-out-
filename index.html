@@ -5,12 +5,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Fake Out">
+<meta name="apple-mobile-web-app-title" content="Impasta">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#12101c">
 <link rel="apple-touch-icon" href="icon.png">
 <link rel="icon" href="icon.png">
-<title>Fake Out — Imposter Word Game</title>
+<title>Impasta — Imposter Word Game</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&display=swap" rel="stylesheet">
 <style>
@@ -25,7 +25,7 @@ button{font:inherit;color:inherit;border:0;cursor:pointer}
 .wrap{max-width:480px;margin:0 auto;padding:18px 16px 120px}
 .screen{display:none}.screen.on{display:block}
 .logo{display:flex;align-items:center;gap:10px;margin:6px 0 18px}
-.logo .mark{width:46px;height:46px;border-radius:14px;background:var(--accent);display:grid;place-items:center;font-size:26px;transform:rotate(-6deg)}
+.logo .mark{width:46px;height:46px;border-radius:14px;object-fit:cover;display:block;transform:rotate(-6deg)}
 .logo h1{margin:0;font-size:28px;font-weight:800;letter-spacing:-.5px}
 .logo small{display:block;color:var(--muted);font-weight:500;font-size:13px;letter-spacing:0}
 .panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:14px;margin-bottom:12px}
@@ -100,7 +100,7 @@ button{font:inherit;color:inherit;border:0;cursor:pointer}
 
 <!-- SETUP -->
 <div class="screen on" id="setup"><div class="wrap">
-  <div class="logo"><div class="mark">🕵️</div><h1>Fake Out<small>Find the imposter. Pass the phone.</small></h1></div>
+  <div class="logo"><img class="mark" src="icon.png" alt="Impasta icon"><h1>Impasta<small>Find the imposter. Pass the phone.</small></h1></div>
 
   <div class="panel">
     <div class="label"><span>👥 Players <span id="pcount"></span></span></div>
