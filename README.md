@@ -1,4 +1,4 @@
-# Fake Out
+# Impasta
 
 A pass-the-phone imposter word game with 16 categories and ~1,000 words.
 
